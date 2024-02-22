@@ -14,7 +14,7 @@ function newManipulation(array) {
       return new Promise((res, rej) => {
         setTimeout(() => {
           const evenMulti = evenNumber.map((num) => num * 2);
-          outputInput.innerText= evenMulti.join(', ')
+          // outputInput.innerText= evenMulti.join(', ')
           res(evenMulti);
         }, 2000);
       });

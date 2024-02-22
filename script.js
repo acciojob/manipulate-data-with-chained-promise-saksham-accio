@@ -3,11 +3,6 @@ const outputInput = document.getElementById("output")
 let array = [1, 2, 3, 4];
 
 function newManipulation(array) {
-    return new Promise((res, rej) => {
-        setTimeout(()=> {
-            res (array)
-        } , 3000)
-    }).then(array => {
         return new Promise ((res, rej) => {
             setTimeout(() => {
                 const evenNumber =array.filter((num) => num % 2 == 0 )

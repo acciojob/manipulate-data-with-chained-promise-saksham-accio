@@ -6,7 +6,7 @@ function newManipulation(array) {
   return new Promise((res, rej) => {
     setTimeout(() => {
       const evenNumber = array.filter((num) => num % 2 == 0);
-      outputInput.innerText= evenNumber.join(', ')
+      outputInput.innerText= evenNumber.join(',')
       res(evenNumber);
     }, 1000);
   })
